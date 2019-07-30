@@ -123,12 +123,7 @@ public class ReflectionUtils
                 case 16:
                     internalSaveDone = save_4_1(wifiManager, configuration);
                     break;
-
                 case 17:
-                case 18:
-                case 19:
-                case 20:
-                default:
                     internalSaveDone = save_4_2(wifiManager, configuration);
                     break;
             }
